@@ -1,3 +1,8 @@
-Cydra Tools is an app for iOS to manage Cydia and jailbroken devices.
+Cydra Tools is an app for iOS 13.4/13.4.1 to manage Cydia and jailbroken devices.
 
-It was written in C language and compiled with LLVM Clang (C18 standard).
+It was written in C language and compiled with LLVM Clang 10 (C18 standard) on iOS(Darwin).
+
+You will need the iOS 13.4 SDK file in this folder : "/var/theos/sdks/iPhoneOS13.4.sdk".
+
+If the app doesn't run, you will need to sign it with : "ldid -M -S /usr/bin/cydratools"
+
